@@ -71,7 +71,6 @@ export function History() {
       <ScrollView
         contentContainerStyle={styles.history}
         showsVerticalScrollIndicator={false}
-        style={{ flex: 1 }}
       >
         {history.map((item, index) => (
           <Animated.View
