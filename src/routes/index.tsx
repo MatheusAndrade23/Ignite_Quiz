@@ -1,9 +1,9 @@
-import { View } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
+import { View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
 
-import { THEME } from '../styles/theme';
+import { THEME } from "../styles/theme";
 
-import { AppRoutes } from './app.routes';
+import { AppRoutes } from "./app.routes";
 
 export function Routes() {
   return (
@@ -12,5 +12,5 @@ export function Routes() {
         <AppRoutes />
       </NavigationContainer>
     </View>
-  )
+  );
 }
