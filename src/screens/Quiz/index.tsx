@@ -141,7 +141,6 @@ export function Quiz() {
       setPoints((prevState) => prevState + 1);
       await playSound(true);
       setStatusReply(1);
-      handleNextQuestion();
     } else {
       await playSound(false);
       setStatusReply(2);
@@ -243,6 +242,12 @@ export function Quiz() {
 
     return () => backHandler.remove();
   }, []);
+
+  useEffect(() => {
+    if (quiz.questions) {
+      handleNextQuestion();
+    }
+  }, [points]);
 
   if (isLoading) {
     return <Loading />;
