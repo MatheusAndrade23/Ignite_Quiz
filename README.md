@@ -1,4 +1,4 @@
-<h1 align="center">📚 Ignite Shoes ❓</h1>
+<h1 align="center">📚 Ignite Quiz ❓</h1>
 
 <h3 align="center">Um App de Quiz desenvolvido com React Native + Typescript + Native Base durante um módulo da trilha de React Native da jornada Ignite, da Rocketseat.</h3>
 
@@ -7,6 +7,8 @@
 O App foi entregue com a interface já toda desenvolvida e durante o módulo, todas as animações e feedbacks visuais, sonoros e táteis foram implementados.
 
 <br />
+
+![Demo](https://user-images.githubusercontent.com/84635540/236643086-f7887927-ac7e-4eea-a6fa-a30f2f8f9e6d.gif)
 
 ---
 
@@ -28,6 +30,7 @@ O App foi entregue com a interface já toda desenvolvida e durante o módulo, to
   <img align="center" alt="Js" height="35" width="45"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Ts" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg">
   <img align="center" alt="React" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+  <img align="center" alt="Android" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg">
  </div>
 
 <br>
